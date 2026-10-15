@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiel John M. Cuervo | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;800&family=Roboto:wght@700&family=Sen:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">FJ</a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h3>Hello, I'm</h3>
+      <h1>Fiel John M. Cuervo</h1>
+      <h3 class="role">BSIT Student Aspiring <span class="cyan" id="typed"></span><span class="cursor"></span></h3>
+      <p>I'm a passionate and driven IT student who loves creating web experiences and turning ideas into projects. Currently learning, building, and growing my skills to become a professional developer.</p>
+      <a href="images/cv.pdf" download class="btn">Download CV</a>
+    </div>
+    <div class="photo-wrap hero-photo">
+      <div class="float">
+        <div class="glow"></div>
+        <div class="circle"></div>
+        <div class="mask"><img src="images/profile.png" alt="Fiel John M. Cuervo"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="about-photo">
+      <div class="float">
+        <div class="ring"></div>
+        <div class="mask"><img src="images/profile.png" alt="Fiel John Cuervo"></div>
+      </div>
+    </div>
+    <div class="about-text">
+      <h2>About <span class="cyan">Me</span></h2>
+      <p>Hi! I'm Fiel John Cuervo, a BSIT student with a passion for technology, programming, and web design. I enjoy learning new skills, exploring creative ideas, and building projects that improve my knowledge in the IT field.</p>
+      <p>I have experience with Java, JavaScript, HTML, CSS, MySQL, and Figma. I'm continuously working to improve my programming and design skills while exploring new technologies.</p>
+      <p>My goal is to become a skilled IT professional and create useful, user-friendly digital solutions. I believe that every project is an opportunity to learn, grow, and become better.</p>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <h2 class="title">My <span class="cyan">Skills</span></h2>
+    <div class="skill-grid">
+      <div class="skill"><img src="images/java.png" alt=""><span>Java</span></div>
+      <div class="skill"><img src="images/java-script.png" alt=""><span>JavaScript</span></div>
+      <div class="skill"><img src="images/css-3.png" alt=""><span>CSS</span></div>
+      <div class="skill"><img src="images/html.png" alt=""><span>HTML</span></div>
+      <div class="skill"><img src="images/mysql.png" alt=""><span>My SQL</span></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <h2 class="title">My <span class="cyan">Projects</span></h2>
+    <div class="project-grid">
+      <article class="project">
+        <img src="images/multi-language-simulator.png" alt="Multi Language Simulator">
+        <h4>Multi Language Simulator</h4>
+        <a href="#" class="btn">Read More</a>
+      </article>
+      <article class="project">
+        <img src="images/ordering-system.png" alt="Ordering System">
+        <h4>Ordering System</h4>
+        <a href="#" class="btn">Read More</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="contact-col intro">
+      <h5>Contact</h5>
+      <h2>Get in <span class="cyan">Touch</span></h2>
+      <p>Feel free to reach out to me. I'm always open to new opportunities, collaborations, and projects.</p>
+    </div>
+    <div class="contact-col info">
+      <p><img src="images/gmail.png" alt="Email">pilj238@gmail.com</p>
+      <p><img src="images/phone.png" alt="Phone">0938-076-2071</p>
+      <p><img src="images/map.png" alt="Location">Tabango, Leyte</p>
+    </div>
+    <div class="contact-col social">
+      <div class="icons">
+        <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="images/github.png" alt="GitHub"></a>
+      </div>
+      <a href="mailto:pilj238@gmail.com" class="btn">Send a Message</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Optional profile photos: add profile-hero.png and profile-about.png to this folder. If you do not add photos, the site shows an FJ fallback badge. Use your own photo files and keep these exact filenames.
